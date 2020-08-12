@@ -1,11 +1,22 @@
 package demo;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Task2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello welcome to git");
-
+		
+		System.out.println(LocalDate.now());
+		
+		
+		
 	}
-
+	
+	public static void bad() {
+		throw new Error();
+	}
+	
+	
 }
